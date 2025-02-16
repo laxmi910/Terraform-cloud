@@ -39,3 +39,6 @@ steps:
           echo "Branch is not 'prod', skipping terraform apply."
           exit 0
         fi
+options:
+  logging: CLOUD_LOGGING_ONLY
+
